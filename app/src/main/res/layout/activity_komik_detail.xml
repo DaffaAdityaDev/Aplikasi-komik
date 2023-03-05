@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".komik_detail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_gambarKomik"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tv_detail_komik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_recommend_image"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="93dp"
+                android:layout_marginEnd="8dp"
+                android:scrollbars="vertical"
+                android:text="detail" />
+
+            <TextView
+                android:id="@+id/tv_judulKomik_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="117dp"
+                android:layout_marginTop="28dp"
+                android:layout_toEndOf="@+id/iv_gambarKomik"
+                android:text="Nama Komik" />
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_total_capter"
+                android:layout_marginStart="117dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/iv_gambarKomik"
+                android:text="Rating" />
+
+            <TextView
+                android:id="@+id/tv_total_capter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_judulKomik_detail"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/iv_gambarKomik"
+                android:text="total Capter" />
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_rating"
+                android:layout_marginStart="118dp"
+                android:layout_marginTop="27dp"
+                android:layout_toEndOf="@+id/iv_gambarKomik"
+                android:text="Year" />
+
+            <TextView
+                android:id="@+id/tv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_year"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="17dp"
+                android:layout_toEndOf="@+id/iv_gambarKomik"
+                android:text="Category" />
+
+            <TextView
+                android:id="@+id/tv_cek_komik_lainnya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_gambarKomik"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="55dp"
+                android:text="cek komik lainnya" />
+
+            <ImageView
+                android:id="@+id/iv_recommend_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/tv_cek_komik_lainnya"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/iv_recommend_image2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/tv_cek_komik_lainnya"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/iv_recommend_image"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/iv_recommend_image3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/tv_cek_komik_lainnya"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/iv_recommend_image2"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tv_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_recommend_image"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="37dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tv_recommend2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_recommend_image2"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="39dp"
+                android:layout_toEndOf="@+id/tv_recommend"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tv_recommend3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_recommend_image3"
+                android:layout_marginStart="98dp"
+                android:layout_marginTop="36dp"
+                android:layout_toEndOf="@+id/tv_recommend2"
+                android:text="TextView" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Submission Aplikasi-komik </string>
+
+    <string-array name="komik_jepang">
+        <item>Attack On Titan</item>
+        <item>Blue Period</item>
+        <item>Jujtsu Kaisen</item>
+        <item>Kijin Gentoushou</item>
+        <item>The Promised Neverland</item>
+    </string-array>
+
+    <string-array name="data_photo_komik_jepang">
+        <item>@drawable/komik_attack_on_titan</item>
+        <item>@drawable/komik_blue_period</item>
+        <item>@drawable/komik_jujtsu_kaisen</item>
+        <item>@drawable/komik_kijin_gentoushou</item>
+        <item>@drawable/komik_the_promised_neverland</item>
+    </string-array>
+
+    <string-array name="data_detail_komik_jepang">
+        <item>Shingeki no Kyojin (Attack on Titan) adalah seri manga shonen yang mengisahkan
+            tentang umat manusia yang hidup di wilayah yang dikelilingi oleh tiga tembok besar
+            untuk melindungi mereka dari makhluk raksasa pemakan manusia yang dikenal sebagai Titan.
+            Cerita ini mengikuti perjuangan Eren Yeager, Mikasa Ackerman, dan teman-temannya dalam
+            mempertahankan manusia dari serangan Titan serta mengungkap rahasia di balik keberadaan mereka.
+            Manga ini telah diadaptasi menjadi seri anime yang sukses secara kritis dan komersial, dengan musim
+            keempat dan terakhir ditayangkan pada bulan Desember 2020. Attack on Titan telah meraih berbagai penghargaan
+            dan menjadi salah satu manga terlaris sepanjang sejarah. Meskipun populer di banyak negara, seri ini juga
+            menimbulkan kontroversi di beberapa negara karena interpretasi politiknya.</item>
+    </string-array>
+
+    <string-array name="komik_amerika">
+        <item>Moon Knight</item>
+        <item>The Winter Soldier</item>
+        <item>Camptain America</item>
+        <item>Spiderman</item>
+        <item>Deadpool</item>
+    </string-array>
+
+    <string-array name="data_photo_komik_amerika">
+        <item>@drawable/komik_moon_knight</item>
+        <item>@drawable/komik_the_winter_soldier</item>
+        <item>@drawable/komik_captain_america</item>
+        <item>@drawable/komik_spiderman</item>
+        <item>@drawable/komik_deadpool</item>
+    </string-array>
+</resources>
