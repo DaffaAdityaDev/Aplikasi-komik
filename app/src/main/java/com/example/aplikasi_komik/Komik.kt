@@ -8,4 +8,5 @@ data class Komik(
     var title: String,
     var description: String,
     var photo: Int,
+    var position: Int,
 ) : Parcelable

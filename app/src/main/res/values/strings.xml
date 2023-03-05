@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Submission Aplikasi-komik </string>
 
+    <!-- Data Komik jepang -->
     <string-array name="komik_jepang">
         <item>Attack On Titan</item>
         <item>Blue Period</item>
@@ -26,8 +27,74 @@
             Manga ini telah diadaptasi menjadi seri anime yang sukses secara kritis dan komersial, dengan musim
             keempat dan terakhir ditayangkan pada bulan Desember 2020. Attack on Titan telah meraih berbagai penghargaan
             dan menjadi salah satu manga terlaris sepanjang sejarah. Meskipun populer di banyak negara, seri ini juga
-            menimbulkan kontroversi di beberapa negara karena interpretasi politiknya.</item>
+            menimbulkan kontroversi di beberapa negara karena interpretasi politiknya
+        </item>
+        <item>
+            Bosan dengan hidupnya, siswa SMA populer, Yatora
+            Yaguchi, terjun ke dunia seni yang indah tetapi tak ada
+            habisnya setelah menemukan inspirasi dalam sebuah lukisan.
+            Tonton semua yang kamu mau. Anime yang penuh emosi ini didasarkan pada manga hit
+            karya Tsubasa Yamaguchi yang meraih Hadiah Utama Manga Taisho 2020.
+        </item>
+        <item>
+            Jujutsu Kaisen mengisahkan tentang kehidupan Yuuji Itadori, seorang pelajar SMA
+            yang ternyata memiliki kekuatan fisik luar biasa. Pada awalnya, dia menjalani
+            hari-hari sebagai anak SMA biasa, tetapi kemudian hidupnya berupah pada saat dia
+            harus membantu teman-temannya yang menghadapi bahaya karena sebuah kutukan.
+            Suatu ketika Yuuji mengingat sebuah wasiat yang pernah disampaikan kepadanya dari sang kakek.
+            Ternyata, untuk menyelamatkan teman-temannya dia harus menjadi penyihir Jujutsu agar
+            memiliki kekuatan yang lebih besar dari kutukan itu.
+        </item>
+        <item>
+            Pada zaman Edo, ada seorang gadis kuil bernama “Itsukihime” di desa pegunungan Kadono.
+            Jinta, seorang pemuda yang bertindak sebagai penjaga gadis kuil tersebut, meskipun dia
+            orang asing. Suatu hari ia bertemu dengan iblis misterius yang berbicara tentang masa depan,
+            dia kemudian pergi ke dalam hutan untuk mengalahkannya.
+            Dari Edo hingga era Heisei, serial fantasi Jepang yang besar ini mengikuti seorang
+            pria iblis yang melakukan perjalanan melalui waktu sambil terus-menerus mempertanyakan
+            arti dari memegang pedang.
+        </item>
+        <item>
+            Ceritanya mengisahkan tentang sekelompok anak yatim yang berencana
+            untuk kabur dari sebuah panti asuhan. Sebuah adaptasi anime yang diproduksi
+            oleh CloverWorks ditayangkan sejak tanggal 11 Januari hingga 28 Maret 2019
+            pada blok pemrograman Noitamina. Musim kedua akan tayang pada bulan Oktober 2020.
+        </item>
     </string-array>
+
+    <string-array name="data_total_capter_komik_jepang">
+        <item>117</item>
+        <item>58</item>
+        <item>215</item>
+        <item>33</item>
+        <item>181</item>
+    </string-array>
+
+    <string-array name="data_rating_jepang">
+        <item>9.0</item>
+        <item>8.0</item>
+        <item>8.5</item>
+        <item>8.0</item>
+        <item>8.5</item>
+    </string-array>
+
+    <string-array name="data_year_jepang">
+        <item>2013</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="data_genre_jepang">
+        <item>Action, Adventure, Drama, Fantasy, Shounen</item>
+        <item>Coming-of-age, Drama</item>
+        <item>Fiksi petualangan, Fantasi gelap, Fiksi supernatural</item>
+        <item>Fantasy</item>
+        <item>Fantasi gelap, Fiksi ilmiah, Cerita seru</item>
+    </string-array>
+
+    <!-- Data Komik Amerika -->
 
     <string-array name="komik_amerika">
         <item>Moon Knight</item>
@@ -38,10 +105,73 @@
     </string-array>
 
     <string-array name="data_photo_komik_amerika">
-        <item>@drawable/komik_moon_knight</item>
-        <item>@drawable/komik_the_winter_soldier</item>
+        <item>@drawable/komic_moon_knight</item>
+        <item>@drawable/komik_alex_loken</item>
         <item>@drawable/komik_captain_america</item>
         <item>@drawable/komik_spiderman</item>
         <item>@drawable/komik_deadpool</item>
     </string-array>
+
+    <string-array name="data_detail_komik_amerika">
+        <item>
+            Moon Knight sendiri berkisah tentang seorang pegawai museum bernama
+            Steven Grant yang terbawa ke dalam sebuah konspirasi dewa-dewa Mesir saat
+            dirinya melihat kejanggalan di kehidupan sehari-harinya,
+            seperti penemuan identitas alter egonya, Marc Spector yang bekerja di bawah dewa Khonshu.
+        </item>
+        <item>
+            Steve Rogers berusaha untuk menempatkan dirinya di tengah dunia modern,
+            setelah dibekukan sejak masa Perang Dunia II.
+            Saat terbangun, kekacauan dan musuh berbahaya telah menantinya - Winter Soldier.
+        </item>
+        <item>
+            Steve Rogers, ditolak masuk militer karena tidak layak. Kecewa, ia
+            kemudian menjadi relawan untuk sebuah program rahasia,
+            yang membuatnya menjelma menjadi seorang prajurit luar biasa, Captain America.
+        </item>
+        <item>
+            Pertama kalinya dalam sejarah layar lebar Spider-Man,
+            identitas asli dari pahlawan nan ramah ini terbongkar, sehingga membuat tanggung
+            jawabnya sebagai seorang berkekuatan super berbenturan dengan kehidupan normalnya,
+            dan menempatkan semua orang terdekatnya dalam posisi paling terancam.
+        </item>
+        <item>
+            Prajurit bayaran Wade Wilson, menjalani percobaan untuk menyembuhkan dirinya dari kanker.
+            Ia memperoleh kekuatan dari proses penyembuhan itu, tapi dengan konsekuensi menjadi cacat fisik permanen.
+        </item>
+    </string-array>
+
+    <string-array name="data_total_capter_komik_amerika">
+        <item>39</item>
+        <item>92</item>
+        <item>63</item>
+        <item>20</item>
+        <item>19</item>
+    </string-array>
+
+    <string-array name="data_rating_amerika">
+        <item>9.0</item>
+        <item>8.0</item>
+        <item>8.5</item>
+        <item>8.0</item>
+        <item>8.5</item>
+    </string-array>
+
+    <string-array name="data_year_amerika">
+        <item>2013</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="data_genre_amerika">
+        <item>Action, Adventure, Drama, Fantasy</item>
+        <item>Action, Drama</item>
+        <item>Action, Drama</item>
+        <item>Action, Adventure, Drama, Fantasy</item>
+        <item>Action, Drama, Mystery, Psychological</item>
+    </string-array>
+
+
 </resources>

@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Aplikasikomik"
         tools:targetApi="31">
         <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
             android:name=".komik_detail"
             android:exported="false" />
         <activity

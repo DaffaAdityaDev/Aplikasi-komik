@@ -1,8 +1,11 @@
 package com.example.aplikasi_komik
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -18,6 +21,23 @@ class MainActivity : AppCompatActivity() {
 
         postToList()
         showKomik()
+
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.about -> {
+                val about = Intent(this, About::class.java)
+                startActivity(about)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun showKomik() {
@@ -41,15 +61,16 @@ class MainActivity : AppCompatActivity() {
         val dataImageKomikAmerika = resources.obtainTypedArray(R.array.data_photo_komik_amerika)
 
         val dataDetailKomikJepang = resources.getStringArray(R.array.data_detail_komik_jepang)
+        val dataDetailKomikAmerika = resources.getStringArray(R.array.data_detail_komik_amerika)
 
         val totalKomik : Int = ((dataKomikJepang.size) + (dataKomikAmerika.size))
 
         for (i in 0 until totalKomik) {
             val target = i / 2
             if(i % 2 == 0)
-                addToList(dataKomikAmerika[target], dataDetailKomikJepang[0], dataImageKomikAmerika.getResourceId(target, -1))
+                addToList(dataKomikAmerika[target], dataDetailKomikAmerika[target], dataImageKomikAmerika.getResourceId(target, -1))
             else
-                addToList(dataKomikJepang[target], "heloo", dataImageKomikJepang.getResourceId(target, -1))
+                addToList(dataKomikJepang[target], dataDetailKomikJepang[target], dataImageKomikJepang.getResourceId(target, -1))
 
         }
     }

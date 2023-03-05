@@ -23,12 +23,11 @@ RecyclerView.Adapter<recyclerAdapterKomik.ViewHolder>() {
         init {
             itemView.setOnClickListener {
                 val position: Int = adapterPosition
-                Toast.makeText(itemView.context, "You clicked on item #${position}", Toast.LENGTH_SHORT).show()
-
                 val komikData = Intent(activity, komik_detail::class.java)
                 val komik = Komik(dataKomikList.judulKomik[position],
                     dataKomikList.deskripsiKomik[position],
-                    dataKomikList.imagesKomik[position])
+                    dataKomikList.imagesKomik[position],
+                    position)
 
                 komikData.putExtra("EXTRA_KOMIK", komik)
                 activity.startActivity(komikData)
