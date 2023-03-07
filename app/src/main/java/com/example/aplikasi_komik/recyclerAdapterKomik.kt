@@ -23,6 +23,7 @@ RecyclerView.Adapter<recyclerAdapterKomik.ViewHolder>() {
         init {
             itemView.setOnClickListener {
                 val position: Int = adapterPosition
+
                 val komikData = Intent(activity, komik_detail::class.java)
                 val komik = Komik(dataKomikList.judulKomik[position],
                     dataKomikList.deskripsiKomik[position],
@@ -48,7 +49,6 @@ RecyclerView.Adapter<recyclerAdapterKomik.ViewHolder>() {
         holder.itemJudulKomik.text = title
         holder.itemDeskripsiKomik.text = detail
         holder.itemGambarKomik.setImageResource(image)
-
     }
 
     override fun getItemCount(): Int {

@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         postToList()
         showKomik()
-
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
