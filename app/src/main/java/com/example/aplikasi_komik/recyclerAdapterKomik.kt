@@ -31,6 +31,7 @@ RecyclerView.Adapter<recyclerAdapterKomik.ViewHolder>() {
                     position)
 
                 komikData.putExtra("EXTRA_KOMIK", komik)
+
                 activity.startActivity(komikData)
             }
         }
